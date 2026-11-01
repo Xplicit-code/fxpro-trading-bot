@@ -1,0 +1,10 @@
+{
+  "risk_fraction": 0.005,
+  "daily_loss_fraction": 0.02,
+  "max_drawdown_fraction": 0.1,
+  "threshold": 0.57,
+  "stop_atr": 1.8,
+  "reward_risk": 1.8,
+  "commission_per_lot": 7.0,
+  "slippage_ticks": 2.0
+}

@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fxpro-trading-bot"
+version = "0.1.0"
+description = "Local AI trading research, paper execution, and FxPro MetaTrader 5 automation"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+mt5 = ["MetaTrader5>=5.0.45; platform_system == 'Windows'"]
+
+[project.scripts]
+fxpro-bot = "fxpro_bot.__main__:main"
+
+[tool.setuptools.package-data]
+fxpro_bot = ["static/*"]
+
+[tool.setuptools.packages.find]
+include = ["fxpro_bot*"]

@@ -1,0 +1,12 @@
+{
+  "name": "EURUSD",
+  "tick_size": 0.00001,
+  "tick_value": 1.0,
+  "volume_min": 0.01,
+  "volume_max": 10.0,
+  "volume_step": 0.01,
+  "spread_ticks": 12,
+  "digits": 5,
+  "currency": "USD",
+  "margin_per_lot": 3500
+}
